@@ -9,7 +9,7 @@ app.get('/', (req, res) => {
   res.send('Hello World!')
 })
 
-app.get('/post', (req, res) => {
+app.post('/post', (req, res) => {
     res.send(req.body);
   })
 
